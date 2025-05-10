@@ -1,0 +1,108 @@
+/* Основные стили */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fffaf7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    color: #f9d7e5;
+}
+
+.subtitle {
+    font-family: 'Caveat', cursive;
+    color: #f9d7e5;
+    font-size: 1.5rem;
+}
+
+header {
+    background-color: #f9d7e5;
+    padding: 20px;
+    text-align: center;
+}
+
+header .btn {
+    background-color: #ffe3cf;
+    padding: 10px 20px;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+header .btn:hover {
+    background-color: #f9d7e5;
+}
+
+/* Стиль для раздела цен */
+#prices {
+    background-color: #ffe3cf;
+    padding: 20px;
+    text-align: center;
+}
+
+.price-card {
+    display: grid;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.price {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #333;
+}
+
+/* Галерея */
+#portfolio {
+    padding: 20px;
+    text-align: center;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    justify-items: center;
+}
+
+/* Контактная информация */
+#contact {
+    background-color: #f9d7e5;
+    padding: 20px;
+    text-align: center;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+}
+
+.social-links li {
+    margin: 10px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #ffe3cf;
+}
+
+/* Футер */
+footer {
+    background-color: #ffe3cf;
+    padding: 10px;
+    text-align: center;
+}
